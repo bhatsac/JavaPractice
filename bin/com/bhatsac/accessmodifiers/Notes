@@ -1,0 +1,33 @@
+1.packages
+2.Strings
+3.Access levels
+4.Information Hiding
+
+Accessing Classes:-
+->import
+	explicit import is preferred
+	java.lang is imported by default
+
+	always use reverse domain name.
+->String 
+	java.lang.String;
+	String object is immutable
+	Uses character array to store text
+	java uses UTF-16 for characters
+	
+	String object is immutable sequence of unicode characters.
+->String Pool 			//TODO
+	Stores string literals as string objects
+	Resides on heap	
+	Single copy of string literal is stored
+	Process of building sting literal on string pool is called string intern
+	
+->String concatenation //TODO
+	+				
+	StringBuilder   <--300x faster,2x faster as StringBuffer
+	StringBuffer	
+->Access levels /Modifiers
+	Inside class ~ private
+	Inside package 	
+	Inside Package + any subclasses ~ protected
+	Inside & outside package ~ public
